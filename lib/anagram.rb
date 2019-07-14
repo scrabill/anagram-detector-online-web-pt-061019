@@ -19,9 +19,9 @@ class Anagram
       if x.sort == y.sort
         # binding.pry
         new_array << x
-      else
-        new_array = []
-      end
+      # else
+      #   new_array = []
+      # end
     end
   new_array
   end
