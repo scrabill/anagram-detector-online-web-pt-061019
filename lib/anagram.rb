@@ -17,8 +17,8 @@ class Anagram
       y = @word.split("")
 
       if x.sort == y.sort
-        # binding.pry
-        new_array = y
+        binding.pry
+        new_array = x
       else
         new_array = []
       end
