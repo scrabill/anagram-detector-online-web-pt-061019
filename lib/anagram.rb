@@ -1,3 +1,5 @@
+require "pry"
+
 class Anagram
 
   attr_accessor :word
@@ -15,6 +17,7 @@ class Anagram
       y = @word.split("")
 
       if x.sort == y.sort
+        binding.pry
         new_array = x
       else
         new_array = []
