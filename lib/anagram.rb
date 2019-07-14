@@ -23,6 +23,6 @@ class Anagram
       #   new_array = []
       end
     end
-  new_array.flatten
+  new_array.flatten.to_s
   end
 end
