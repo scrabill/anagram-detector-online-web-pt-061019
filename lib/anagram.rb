@@ -21,7 +21,7 @@ class Anagram
         new_array << x
       # else
       #   new_array = []
-      # end
+      end
     end
   new_array
   end
